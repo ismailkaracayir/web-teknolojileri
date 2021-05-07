@@ -1,0 +1,102 @@
+
+body{margin: 0px;}
+
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image:url(img/black-1072366_1920.jpg);
+    height: 100px;
+  }
+  
+ nav ul li {
+    float: right;
+    font-size: 20px;
+    margin:20px;
+    border-right: 1px solid black;
+    
+  }
+ nav ul li button
+  {
+      width: 150px;
+      height: 50px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border: 1px solid #333;
+    border-radius: 10px;
+    
+
+
+  }
+  
+ nav ul  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition:background-color 0.5s;
+
+
+  }
+  
+ nav ul  li a:hover {
+    border: 1px solid black;
+
+  }
+
+header
+{
+  width: ½100;
+  height: 600px;
+background-image:url(img/black-1072366_1920.jpg);
+opacity: 0.9;}
+
+
+header h1
+{
+  margin: 0px;
+  font-size: 80px;
+  top:100px ;
+  left: 500px; 
+  display: inline-block;
+  position: absolute;
+  font-family: 'Dancing Script', cursive;}
+
+  .hakkimda
+  {
+    position: absolute;
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+    top:230px ;
+    font-size: 35px;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
