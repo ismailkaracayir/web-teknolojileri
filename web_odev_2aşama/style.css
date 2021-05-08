@@ -1,0 +1,186 @@
+
+body{margin: 0px;}
+
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image:url(img/black-1072366_1920.jpg);
+    height: 100px;
+  }
+  
+ nav ul li {
+    float: right;
+    font-size: 20px;
+    margin:20px;
+    border-right: 1px solid black;
+    
+  }
+ nav ul li button
+  {
+      width: 150px;
+      height: 50px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border: 1px solid #333;
+    border-radius: 10px;
+    
+
+
+  }
+  
+ nav ul  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition:background-color 0.5s;
+
+
+  }
+  
+ nav ul  li a:hover {
+    border: 1px solid black;
+    font-size: 18px;
+
+
+  }
+
+header
+{
+  width: ½100;
+  height: 500px;
+background-image:url(img/black-1072366_1920.jpg);
+opacity: 0.9;}
+
+
+header h1
+{
+  text-align: center;
+  margin: 0px;
+  font-size: 80px;
+  top:100px ;
+  left: 500px; 
+  font-family: 'Itim', cursive;
+}
+
+  .hakkimda
+  {
+    font-family: 'Itim', cursive;
+    display: inline-block;
+    margin-top: 20 ;
+    font-size: 30px;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+  }
+
+
+
+
+
+
+.devamgor
+{
+ 
+  color: black;
+  text-align: center;
+  transition:background-color 0.5s;
+  font-family: 'Itim', cursive;
+}
+
+main
+{
+  width: ½100;
+  height: ½100;
+  background-color: white;
+
+}
+main h1
+{
+  text-align: center;
+  margin: 0px;
+  font-size: 80px;
+  top:100px ;
+  left: 500px; 
+  font-family: 'Itim', cursive;
+    
+}
+
+.card{
+  margin: 20px;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 40px;
+  border: 1px solid black;
+  
+  -webkit-transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+}
+
+.card-image{
+  width: 100%;
+  max-height: 250px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+}
+
+.card-image:hover{
+  opacity: 0.8;
+}
+
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-body{
+  padding: 10px 16px;
+}
+
+.card-title{
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-family: 'Itim', cursive;
+
+}
+
+.card-text
+{
+  color:black;
+  font-size: 20px;
+  font-family: 'Itim', cursive;
+
+
+}
+
+.card-text-a
+{
+  color:black;
+  font-size: 30px;
+  font-family: 'Itim', cursive;
+
+
+}
+
+.card-text-a:hover
+{
+color: #333;}
+
+
+
+
+
+
