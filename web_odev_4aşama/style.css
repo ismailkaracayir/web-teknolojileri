@@ -1,0 +1,529 @@
+
+body{margin: 0px;}
+
+
+/*
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image:url(img/black-1072366_1920.jpg);
+    height: 100px;
+  }
+
+
+
+ 
+  
+ nav ul li {
+    float: right;
+    font-size: 20px;
+    margin:20px;
+    border-right: 1px solid black;
+    
+  }
+ nav ul li button
+  {
+      width: 150px;
+      height: 50px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border: 1px solid #333;
+    border-radius: 10px;
+    
+
+
+  }
+  
+ nav ul  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition:background-color 0.5s;
+
+
+  }
+  
+ nav ul  li a:hover {
+    border: 1px solid black;
+    font-size: 18px;
+
+
+  }
+*/
+
+ 
+header
+{
+  width: ½100;
+  height: 500px;
+background-image:url(img/black-1072366_1920.jpg);
+opacity: 0.9;}
+
+
+header h1
+{
+  text-align: center;
+  margin: 0px;
+  font-size: 80px;
+  top:100px ;
+  left: 500px; 
+  font-family: 'Itim', cursive;
+}
+
+  .hakkimda
+  {
+    font-family: 'Itim', cursive;
+    display: inline-block;
+    margin-top: 20 ;
+    font-size: 30px;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    overflow: hidden;
+    
+  }
+   @media screen and (max-width: 1000px)
+   {
+     
+  .hakkimda
+  {
+   
+    font-size: 25px;
+    
+    
+  }
+     
+   }
+   @media screen and (max-width: 700px)
+   {
+     
+  .hakkimda
+  {
+   
+    font-size: 20px;
+    
+    
+  }
+     
+   }
+  .hakkimda-img
+   {
+     width: 250px;
+     height: 250px;
+     float:left;
+     margin: 20px;
+     border-radius: 20px;
+     box-shadow: 2px 2px 2px 2px black;
+    
+   }
+
+
+.devamgor
+{
+ 
+  color: black;
+  text-align: center;
+  transition:background-color 0.5s;
+  font-family: 'Itim', cursive;
+}
+
+main
+{
+  width: ½100;
+  height: ½100;
+  background-color: white;
+
+}
+main h1
+{
+  text-align: center;
+  margin: 0px;
+  font-size: 80px;
+  top:100px ;
+  left: 500px; 
+  font-family: 'Itim', cursive;
+    
+}
+
+.card{
+  margin: 20px;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 40px;
+  border: 1px solid black;
+  
+  -webkit-transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+}
+
+.card-image{
+  width: 100%;
+  max-height: 250px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+}
+
+.card-image:hover{
+  opacity: 0.8;
+}
+
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-body{
+  padding: 10px 16px;
+}
+
+.card-title{
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-family: 'Itim', cursive;
+
+}
+
+.card-text
+{
+  color:black;
+  font-size: 20px;
+  font-family: 'Itim', cursive;
+
+
+}
+
+.card-text-a
+{
+  color:black;
+  font-size: 30px;
+  font-family: 'Itim', cursive;
+
+
+}
+
+.card-text-a:hover
+{
+color: #333;
+}
+
+
+footer
+{
+  width: 100½;
+  height: 150px;
+  background-image:url(img/black-1072366_1920.jpg);
+  opacity: 0.9;
+}
+
+
+
+footer p 
+{
+  text-align: center;
+  position: relative;
+    top: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+
+    
+}
+
+
+.hakkında-etkinlik h1 
+{
+  text-align: center;
+  margin: 0px;
+  font-size: 80px;
+  top:100px ;
+  left: 500px; 
+  font-family: 'Itim', cursive;
+
+}
+
+.hakkında-etkinlik-img
+{
+   height: 300px;
+   width: 300px;
+   margin-top: 50px;
+   margin-left: 20px;
+   border-radius: 20px;
+   box-shadow: 2px 2px 2px 2px black;
+   
+}
+
+.hakkında-etkinlik-p 
+{
+  display: inline-block;
+  text-align: left;
+  margin: 20px;
+    bottom: 100px;
+    font-family: 'Itim', cursive;
+    box-sizing: border-box;
+    font-size: 20px;
+
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.cvcontainer
+{
+  background-color: burlywood;
+  height: 1500px;
+  width: 800px;
+  position: relative;
+margin: auto;
+margin-top: 10px;
+}
+
+@media screen and (max-width: 1000px)
+   {
+  
+.cvcontainer
+{
+  width: 500px;
+}
+
+
+   }
+
+
+
+.cv
+{
+  display: inline-block;
+  margin-left: 50px;
+  font-family: 'Itim', cursive;
+  font-size:20px;
+
+
+
+}
+
+.cv li {padding: 5px; list-style: square;}
+
+.cv-img
+{
+  width: 250px;
+  height: 250px;
+  margin-left: 250px;
+  margin-top: 20px;
+  border-radius: 120px ;
+  vertical-align:revert;
+}
+
+
+@media screen and (max-width: 1000px)
+   {
+  
+    .cv-img
+    {
+      width: 150px;
+      margin-left: 0px;
+    }
+
+
+   }
+
+
+
+.ilgialanbaslik{
+
+  text-align: center;
+  margin: 0px;
+  font-size: 80px;
+  
+  font-family: 'Itim', cursive;
+}
+
+
+
+.ilgialanbaslikh2{
+  
+  font-size: 50px;
+  font-family: 'Itim', cursive;
+}
+
+
+
+.film-dizi
+{
+  text-align: left;
+    font-family: 'Itim', cursive;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+
+
+
+form
+{
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 1px 1px black;
+}
+.form-group input {
+
+  border-radius: 210px;
+  box-shadow: 1px 1px 1px 1px black;
+
+}
+.form-group label
+{
+  
+  font-size: 20px;
+  font-family: 'Itim', cursive;
+}
+
+
+@media screen and (max-width: 1000px)
+   {
+    .form-group label
+    {
+      
+      font-size: 15px;
+    }
+
+   }
+
+   
+@media screen and (max-width: 700px)
+{
+ .form-group label
+ {
+   
+   font-size: 12px;
+ }
+
+}
+
+
+form h1 
+{
+
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Itim', cursive;
+  margin-bottom: 50px;
+}
+
+
+
+   
+@media screen and (max-width: 1000px)
+{
+  form h1 
+  {
+  
+    font-size: 60px;
+
+  }
+
+}
+
+   
+@media screen and (max-width: 900px)
+{
+  form h1 
+  {
+  
+    font-size: 30px;
+
+  }
+
+}
+
+
+
+
+.sehrimh1{
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Itim', cursive;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+.adana-img
+{
+  width: 100%;
+  height: 100%;
+  box-shadow: 1px 1px 4px black;
+}
+
+
+
+
+.sehrim-p 
+{
+  text-align: left;
+  font-family: 'Itim', cursive;
+  font-size: 20px;
+
+}
+
+
+
+
+
+.detay-img
+{
+  height: 600px;
+  width: 600px;
+  border-radius: 430px;
+
+}
+
+
+   
+@media screen and (max-width: 900px)
+{
+ 
+.detay-img
+{
+  height: 400px;
+  width: 400px;
+
+}
+
+
+
+}
+.miras-img
+{
+  width: 90%;
+  height: 100%;
+ 
+}
+
+.yanh2{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Itim', cursive;
+  text-shadow: 2px 2px  #333;
+}
+
